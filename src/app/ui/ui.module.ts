@@ -1,12 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { StepperComponent } from './components';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    StepperComponent,
+  ],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+  ],
+  exports: [
+    StepperComponent,
+  ],
 })
 export class UiModule { }
